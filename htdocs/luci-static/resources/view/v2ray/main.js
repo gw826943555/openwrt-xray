@@ -71,7 +71,7 @@ return L.view.extend({
 				_('V2Ray file'),
 				_('Set the V2Ray executable file path.')
 			)).datatype = 'file'),
-			(o.placeholder = '/usr/bin/v2ray'),
+			(o.placeholder = '/usr/bin/xray'),
 			(o.rmempty = !1),
 			((o = s.option(
 				form.Value,
@@ -79,7 +79,7 @@ return L.view.extend({
 				_('V2Ray asset location'),
 				_('Directory where geoip.dat and geosite.dat files are, default: same directory as V2Ray file.')
 			)).datatype = 'directory'),
-			(o.placeholder = '/usr/bin'),
+			(o.placeholder = '/usr/share/xray/'),
 			((o = s.option(
 				form.Value,
 				'mem_percentage',

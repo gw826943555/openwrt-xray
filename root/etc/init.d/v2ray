@@ -136,7 +136,7 @@ v2ray_section_validate() {
 	uci_validate_section "$NAME" "v2ray" "$1" \
 		'enabled:bool:0' \
 		'v2ray_file:string' \
-		'asset_location:directory' \
+		'asset_location:directory:/usr/share/xray' \
 		'mem_percentage:and(uinteger, max(100)):80' \
 		'config_file:file' \
 		'loglevel:or("debug", "info", "warning", "error", "none")' \
