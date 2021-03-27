@@ -1,6 +1,6 @@
 {
 	"admin/services/v2ray": {
-		"title": "V2ray",
+		"title": "Xray",
 		"action": {
 			"type": "alias",
 			"path": "admin/services/v2ray/main"
