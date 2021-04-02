@@ -2259,5 +2259,6 @@ stop_service() {
 }
 
 service_triggers() {
+	procd_add_reload_interface_trigger wan
 	procd_add_reload_trigger "$NAME"
 }
