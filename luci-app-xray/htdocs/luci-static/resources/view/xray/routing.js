@@ -21,9 +21,9 @@ return L.view.extend({
 			i = void 0 === n ? [] : n,
 			l = new form.Map(
 				'v2ray',
-				'%s - %s'.format(_('V2Ray'), _('Routing')),
+				'%s - %s'.format(_('Xray'), _('Routing')),
 				_('Details: %s').format(
-					'<a href="https://www.v2ray.com/en/configuration/routing.html#routingobject" target="_blank">RoutingObject</a>'
+					'<a href="https://xtls.github.io/Xray-docs-next/config/routing.html" target="_blank">RoutingObject</a>'
 				)
 			),
 			u = l.section(form.NamedSection, 'main_routing', 'routing');

@@ -25,8 +25,8 @@ return L.view.extend({
 			o = e[1],
 			u = void 0 === o ? '' : o;
 		return E([
-			E('h2', '%s - %s'.format(_('V2Ray'), _('About'))),
-			E('p', _('LuCI support for V2Ray.')),
+			E('h2', '%s - %s'.format(_('Xray'), _('About'))),
+			E('p', _('LuCI support for Xray.')),
 			E('p', _('Version: %s').format('2.0.0' + '-' + '1')),
 			E('p', _('Author: %s').format('Xingwang Liao')),
 			E(

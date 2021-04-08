@@ -16,7 +16,7 @@ return L.view.extend({
 	render: function (e) {
 		void 0 === e && (e = []);
 		var o,
-			s = new form.Map('v2ray', '%s - %s'.format(_('V2Ray'), _('Inbound'))),
+			s = new form.Map('v2ray', '%s - %s'.format(_('Xray'), _('Inbound'))),
 			t = s.section(form.GridSection, 'inbound');
 		(t.anonymous = !0),
 			(t.addremove = !0),
@@ -261,7 +261,7 @@ return L.view.extend({
 				form.Value,
 				's_socks_ip',
 				'%s - %s'.format('Socks', _('IP')),
-				_('When UDP is enabled, V2Ray needs to know the IP address of current host.')
+				_('When UDP is enabled, Xray needs to know the IP address of current host.')
 			)).modalonly = !0),
 			o.depends('s_socks_udp', '1');
 		for (var n = 0, d = e; n < d.length; n++) {

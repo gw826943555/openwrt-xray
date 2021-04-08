@@ -17,9 +17,9 @@ return L.view.extend({
 		var o,
 			n = new form.Map(
 				'v2ray',
-				'%s - %s'.format(_('V2Ray'), _('Policy')),
+				'%s - %s'.format(_('Xray'), _('Policy')),
 				_('Details: %s').format(
-					'<a href="https://www.v2ray.com/en/configuration/policy.html#policyobject" target="_blank">PolicyObject</a>'
+					'<a href="https://xtls.github.io/Xray-docs-next/config/policy.html" target="_blank">PolicyObject</a>'
 				)
 			),
 			l = n.section(form.NamedSection, 'main_policy', 'policy');

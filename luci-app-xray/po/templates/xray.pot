@@ -1,1226 +1,1223 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:55
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:55
 msgid "%s is required."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:132
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:132
 msgid "<code>transport</code> field in top level configuration, JSON string"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:460
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:492
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:582
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:520
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:549
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:639
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:460
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:492
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:582
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:520
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:549
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:639
 msgid "A list of HTTP headers, format: <code>header=value</code>. eg: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/reverse.js:26
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/reverse.js:26
 msgid "A list of bridges, format: <code>tag|domain</code>. eg: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/reverse.js:32
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/reverse.js:32
 msgid "A list of portals, format: <code>tag|domain</code>. eg: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:39
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:39
 msgid "A list of static addresses, format: <code>domain|address</code>. eg: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:49
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:49
 msgid "A platform for building proxies to bypass network restrictions."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:160
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:160
 msgid "APNIC delegated mirror"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/about.js:28
-#: luasrc/controller/v2ray.lua:31
-#: root/usr/share/luci/menu.d/luci-app-v2ray.json:80
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/about.js:28
+#: luci-app-xray/luasrc/controller/xray.lua:31
+#: luci-app-xray/root/usr/share/luci/menu.d/luci-app-xray.json:80
 msgid "About"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:93
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:93
+msgid "Access Log file path. Disable access log if none"
+msgstr ""
+
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:93
 msgid "Access log file"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:116
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:248
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:116
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:248
 msgid "Account password"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:109
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:241
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:109
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:241
 msgid "Account user"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:26
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:149
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:26
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:149
 msgid "Add"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:48
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:48
 msgid "Add DNS servers here"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:44
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:44
 msgid "Add policy levels here"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:74
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:74
 msgid "Add routing balancers here"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:47
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:47
 msgid "Add routing rules here"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:54
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:53
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:193
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:268
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:362
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:54
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:53
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:193
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:268
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:362
 msgid "Address"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:54
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:54
 msgid "Address of the destination server."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:53
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:32
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:155
-#: htdocs/luci-static/resources/view/v2ray/routing.js:52
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:53
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:32
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:155
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:52
 msgid "Alias"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:101
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:142
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:166
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:279
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:101
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:142
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:166
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:279
 msgid "All connections share this level"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:674
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:683
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:690
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:674
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:683
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:690
 msgid "Allocate"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:372
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:434
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:372
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:434
 msgid "Allow insecure"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:379
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:441
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:379
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:441
 msgid "Allow insecure ciphers"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:124
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:124
 msgid "Allow transparent"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:385
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:385
 msgid "Alter ID"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:67
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:67
 msgid "Attrs"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:230
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:230
 msgid "Auth"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/about.js:31
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/about.js:31
 msgid "Author: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:397
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:397
 msgid "Auto"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:69
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:69
 msgid "Balancer tag"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:42
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:42
 msgid "Balancers"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/reverse.js:25
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/reverse.js:25
 msgid "Bridges"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:64
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:64
 msgid "Buffer size"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:167
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:167
 msgid "CHNRoute"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:88
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:88
 msgid "CHNRoute list updated."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:157
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:157
 msgid "CN Direct"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:158
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:158
 msgid "CN Proxy"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:404
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:466
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:404
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:466
 msgid "Certificate file"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:393
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:455
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:393
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:455
 msgid "Certificate usage"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:287
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:287
 msgid "Client ID"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:32
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:32
 msgid "Client IP"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:309
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:309
 msgid "Client User level"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:294
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:294
 msgid "Client alter ID"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:302
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:302
 msgid "Client email"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:173
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:173
 msgid "Collecting data..."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:690
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:726
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:690
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:726
 msgid "Concurrency"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:90
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:90
 msgid "Config file"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:535
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:592
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:535
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:592
 msgid "Congestion enabled"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:54
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:54
 msgid "Connection idle"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/about.js:56
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/about.js:56
 msgid "Current Config File: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:19
-#: luasrc/controller/v2ray.lua:21
-#: root/usr/share/luci/menu.d/luci-app-v2ray.json:40
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:19
+#: luci-app-xray/luasrc/controller/xray.lua:21
+#: luci-app-xray/root/usr/share/luci/menu.d/luci-app-xray.json:40
 msgid "DNS"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:43
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:43
 msgid "DNS Servers"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:48
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:48
 msgid "DNS server"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:215
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:215
 msgid ""
 "DNS used for domains in direct list, format: <code>ip#port</code>. eg: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:209
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:209
 msgid ""
 "DNS used for domains in proxy list, format: <code>ip#port</code>. eg: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:97
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:97
 msgid "Debug"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:156
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:156
 msgid "Default"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:317
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:317
 msgid "Default alter ID"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:325
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:325
 msgid "Default user level"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:666
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:666
 msgid "Dest override"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:20
-#: htdocs/luci-static/resources/view/v2ray/policy.js:21
-#: htdocs/luci-static/resources/view/v2ray/reverse.js:14
-#: htdocs/luci-static/resources/view/v2ray/routing.js:25
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:20
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:21
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/reverse.js:14
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:25
 msgid "Details: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:333
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:333
 msgid "Detour to"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:214
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:214
 msgid "Direct list DNS"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:80
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:80
 msgid ""
-"Directory where geoip.dat and geosite.dat files are, default: same directory "
-"as V2Ray file."
+"Directory where geoip.dat and geosite.dat files are, default: /usr/share/"
+"xray/."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:343
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:343
 msgid "Disable insecure encryption"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:386
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:448
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:386
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:448
 msgid "Disable system root"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:115
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:115
 msgid "Dismiss"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:54
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:54
 msgid "Domain"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:33
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:33
 msgid "Domain resolution strategy"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:203
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:203
 msgid "Domain strategy"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:57
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:57
 msgid "Domains"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/about.js:52
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/about.js:52
 msgid "Donate: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:526
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:583
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:526
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:583
 msgid "Downlink capacity"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:59
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:59
 msgid "Downlink only"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:174
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:261
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:174
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:261
 msgid "Email"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:131
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:131
 msgid "Enable proxy on selected interfaces."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:119
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:119
 msgid "Enable transparent proxy on Dokodemo-door port."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:27
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:660
-#: htdocs/luci-static/resources/view/v2ray/main.js:59
-#: htdocs/luci-static/resources/view/v2ray/main.js:120
-#: htdocs/luci-static/resources/view/v2ray/main.js:124
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:720
-#: htdocs/luci-static/resources/view/v2ray/policy.js:28
-#: htdocs/luci-static/resources/view/v2ray/reverse.js:21
-#: htdocs/luci-static/resources/view/v2ray/routing.js:32
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:27
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:660
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:59
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:120
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:124
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:720
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:28
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/reverse.js:21
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:32
 msgid "Enabled"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:100
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:100
 msgid "Error"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:103
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:103
 msgid "Error log file"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:58
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:58
 msgid "Expect IPs"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:195
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:195
 msgid "Extra direct list"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:182
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:182
 msgid "Extra proxy list"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:63
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:63
 msgid "Failed to decode GFWList."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:97
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:97
 msgid "Failed to fetch CHNRoute list."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:64
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:64
 msgid "Failed to fetch GFWList."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/about.js:60
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/about.js:60
 msgid "Failed to open file."
 msgstr ""
 
-#: luasrc/controller/v2ray.lua:64
+#: luci-app-xray/luasrc/controller/xray.lua:64
 msgid "Failed to request."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:642
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:707
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:642
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:707
 msgid "False"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:92
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:92
 msgid "Follow redirect"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:50
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:50
 msgid "For more information, please visit: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:175
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:175
 msgid "GFWList"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:159
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:159
 msgid "GFWList Proxy"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:171
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:171
 msgid "GFWList mirror"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:54
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:54
 msgid "GFWList updated."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:29
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:152
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:29
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:152
 msgid "General Settings"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:33
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:33
 msgid "Get my public IP address"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:174
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:174
 msgid "Getting..."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:47
-#: luasrc/controller/v2ray.lua:15
-#: root/usr/share/luci/menu.d/luci-app-v2ray.json:16
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:47
+#: luci-app-xray/luasrc/controller/xray.lua:15
+#: luci-app-xray/root/usr/share/luci/menu.d/luci-app-xray.json:16
 msgid "Global Settings"
 msgstr ""
 
-#: root/usr/share/rpcd/acl.d/luci-app-v2ray.json:3
-msgid "Grant access to LuCI app V2ray"
+#: luci-app-xray/root/usr/share/rpcd/acl.d/luci-app-xray.json:3
+msgid "Grant access to LuCI app Xray"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:436
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:497
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:436
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:497
 msgid "HTTP request method"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:428
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:490
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:428
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:490
 msgid "HTTP request version"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:483
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:541
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:483
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:541
 msgid "HTTP response reason"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:475
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:534
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:475
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:534
 msgid "HTTP response status"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:467
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:527
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:467
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:527
 msgid "HTTP response version"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:52
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:52
 msgid "Handshake"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:418
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:560
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:625
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:480
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:617
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:682
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:418
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:560
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:625
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:480
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:617
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:682
 msgid "Header type"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:581
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:638
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:581
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:638
 msgid "Headers"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:589
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:646
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:589
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:646
 msgid "Host"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:38
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:38
 msgid "Hosts"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:263
-#: htdocs/luci-static/resources/view/v2ray/routing.js:55
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:263
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:55
 msgid "IP"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:155
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:155
 msgid ""
 "If enabled, iptables rules will be added to pre-filter traffic and then sent "
-"to V2Ray."
+"to Xray."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:72
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:93
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:649
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:72
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:93
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:649
 msgid ""
 "If transparent proxy enabled on current inbound, this option will be ignored."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:697
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:697
 msgid ""
 "If transparent proxy is enabled, this option is ignored and will be set to "
 "255."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:740
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:743
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:740
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:743
 msgid "Import"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:80
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:80
 msgid "Imported %d links."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:19
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:26
-#: luasrc/controller/v2ray.lua:17
-#: root/usr/share/luci/menu.d/luci-app-v2ray.json:24
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:19
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:26
+#: luci-app-xray/luasrc/controller/xray.lua:17
+#: luci-app-xray/root/usr/share/luci/menu.d/luci-app-xray.json:24
 msgid "Inbound"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:62
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:62
 msgid "Inbound tag"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:109
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:109
 msgid "Inbounds enabled"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:98
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:98
 msgid "Info"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:64
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:64
 msgid "Invalid JSON content."
 msgstr ""
 
-#: luasrc/controller/v2ray.lua:43
+#: luci-app-xray/luasrc/controller/xray.lua:43
 msgid "Invalid url"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:618
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:675
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:618
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:675
 msgid "Key"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:411
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:473
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:411
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:473
 msgid "Key file"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:130
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:130
 msgid "LAN interfaces"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/about.js:40
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/about.js:40
 msgid "Latest: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:50
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:50
 msgid "Level"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:29
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:29
 msgid "Levels"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:53
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:87
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:53
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:87
 msgid "List Update"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:33
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:33
 msgid "Listen"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:77
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:77
 msgid "Listtype is required"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:222
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:222
 msgid "Local devices direct outbound list"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:96
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:96
 msgid "Log level"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/about.js:29
-msgid "LuCI support for V2Ray."
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/about.js:29
+msgid "LuCI support for Xray."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:696
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:696
 msgid "Mark"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:499
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:556
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:499
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:556
 msgid "Maximum transmission unit (MTU)"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:86
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:86
 msgid "Memory percentage"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:181
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:284
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:181
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:284
 msgid "Method"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:720
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:726
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:720
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:726
 msgid "Mux"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:71
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:220
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:346
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:183
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:409
-#: htdocs/luci-static/resources/view/v2ray/routing.js:58
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:71
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:220
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:346
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:183
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:409
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:58
 msgid "Network"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:234
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:234
 msgid "No Auth"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:100
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:100
 msgid "No links imported."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:355
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:422
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:564
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:615
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:629
-#: htdocs/luci-static/resources/view/v2ray/main.js:92
-#: htdocs/luci-static/resources/view/v2ray/main.js:101
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:177
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:400
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:418
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:484
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:621
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:672
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:686
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:120
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:355
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:422
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:564
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:615
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:629
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:92
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:101
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:177
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:400
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:418
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:484
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:621
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:672
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:686
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:120
 msgid "None"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:162
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:162
 msgid "Not Running"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:94
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:101
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:58
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:92
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:94
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:101
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:58
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:92
 msgid "OK"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:316
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:316
 msgid "OTA"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:654
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:654
 msgid "Off"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:213
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:213
 msgid "One Time Auth (OTA)"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:183
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:196
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:183
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:196
 msgid "One address per line. Allow types: DOMAIN, IP, CIDR. eg: %s, %s, %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:223
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:223
 msgid "One address per line. Allow types: IP, CIDR. eg: %s, %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:142
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:142
 msgid "Only privileged ports"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:143
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:143
 msgid "Only redirect traffic on ports below 1024."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:335
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:335
 msgid ""
 "Optional feature to suggest client to take a detour. If specified, this "
 "inbound will instruct the outbound to use another inbound."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:31
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:154
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:31
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:154
 msgid "Other Settings"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:142
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:149
-#: luasrc/controller/v2ray.lua:19
-#: root/usr/share/luci/menu.d/luci-app-v2ray.json:32
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:142
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:149
+#: luci-app-xray/luasrc/controller/xray.lua:19
+#: luci-app-xray/root/usr/share/luci/menu.d/luci-app-xray.json:32
 msgid "Outbound"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:79
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:99
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:79
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:99
 msgid "Outbound Import"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:68
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:68
 msgid "Outbound tag"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:114
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:114
 msgid "Outbounds enabled"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:197
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:235
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:253
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:300
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:346
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:197
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:235
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:253
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:300
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:346
 msgid "Password"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:574
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:596
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:604
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:631
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:653
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:661
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:574
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:596
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:604
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:631
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:653
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:661
 msgid "Path"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:20
-#: luasrc/controller/v2ray.lua:25
-#: root/usr/share/luci/menu.d/luci-app-v2ray.json:56
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:20
+#: luci-app-xray/luasrc/controller/xray.lua:25
+#: luci-app-xray/root/usr/share/luci/menu.d/luci-app-xray.json:56
 msgid "Policy"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:44
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:44
 msgid "Policy Level"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:55
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:38
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:62
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:196
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:276
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:370
-#: htdocs/luci-static/resources/view/v2ray/routing.js:56
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:55
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:38
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:62
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:196
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:276
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:370
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:56
 msgid "Port"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:63
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:63
 msgid "Port of the destination server."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/reverse.js:31
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/reverse.js:31
 msgid "Portals"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:40
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:161
-#: htdocs/luci-static/resources/view/v2ray/routing.js:63
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:40
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:161
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:63
 msgid "Protocol"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:208
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:208
 msgid "Proxy list DNS"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:154
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:154
 msgid "Proxy mode"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:714
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:714
 msgid "Proxy settings"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:542
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:599
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:542
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:599
 msgid "Read buffer size"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:215
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:215
 msgid "Redirect"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:146
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:146
 msgid "Redirect DNS"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:146
-msgid "Redirect DNS traffic to V2Ray."
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:146
+msgid "Redirect DNS traffic to Xray."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:145
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:145
 msgid "Redirect UDP"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:145
-msgid "Redirect UDP traffic to V2Ray."
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:145
+msgid "Redirect UDP traffic to Xray."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:118
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:118
 msgid "Redirect port"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:683
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:683
 msgid "Refresh"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:66
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:66
 msgid "Reload"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:63
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:63
 msgid "Reload Service"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:22
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:22
 msgid "Reload service failed with code %d"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/about.js:46
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/about.js:46
 msgid "Report Bugs: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:459
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:519
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:459
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:519
 msgid "Request headers"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:452
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:512
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:452
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:512
 msgid "Request path"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:491
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:548
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:491
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:548
 msgid "Response headers"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:173
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:173
 msgid "Response type"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/reverse.js:13
-#: luasrc/controller/v2ray.lua:27
-#: root/usr/share/luci/menu.d/luci-app-v2ray.json:64
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/reverse.js:13
+#: luci-app-xray/luasrc/controller/xray.lua:27
+#: luci-app-xray/root/usr/share/luci/menu.d/luci-app-xray.json:64
 msgid "Reverse"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:24
-#: luasrc/controller/v2ray.lua:23
-#: root/usr/share/luci/menu.d/luci-app-v2ray.json:48
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:24
+#: luci-app-xray/luasrc/controller/xray.lua:23
+#: luci-app-xray/root/usr/share/luci/menu.d/luci-app-xray.json:48
 msgid "Routing"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:74
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:74
 msgid "Routing Balancer"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:47
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:47
 msgid "Routing Rule"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:37
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:37
 msgid "Rules"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:163
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:163
 msgid "Running"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:131
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:131
 msgid "Save"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:353
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:611
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:393
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:416
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:668
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:353
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:611
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:393
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:416
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:668
 msgid "Security"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:43
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:43
 msgid "Select DNS servers to use"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:29
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:29
 msgid "Select policy levels"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:42
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:42
 msgid "Select routing balancers to use"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:37
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:37
 msgid "Select routing rules to use"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:80
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:80
 msgid "Selector"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:156
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:156
 msgid "Send through"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:230
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:323
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:230
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:323
 msgid "Server address"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:361
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:424
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:361
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:424
 msgid "Server name"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:238
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:331
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:238
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:331
 msgid "Server port"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:72
-msgid "Set the V2Ray executable file path."
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:72
+msgid "Set the Xray executable file path."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:131
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:131
 msgid "Settings"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:138
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:138
 msgid "Setup redirect rules with TProxy."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:660
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:666
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:660
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:666
 msgid "Sniffing"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:639
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:648
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:696
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:704
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:639
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:648
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:696
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:704
 msgid "Sockopt"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:60
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:60
 msgid "Source"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/about.js:34
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/about.js:34
 msgid "Source: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:120
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:120
 msgid "Stats"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:42
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:42
 msgid "Stats inbound downlink"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:37
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:37
 msgid "Stats inbound uplink"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:63
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:63
 msgid "Stats user downlink"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:62
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:62
 msgid "Stats user uplink"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:674
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:674
 msgid "Strategy"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:30
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:153
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:30
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:153
 msgid "Stream Settings"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:37
-#: htdocs/luci-static/resources/view/v2ray/policy.js:42
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:37
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:42
 msgid "System"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:639
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:704
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:639
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:704
 msgid "TCP fast open"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:648
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:648
 msgid "TProxy"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/dns.js:28
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:655
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:709
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:714
-#: htdocs/luci-static/resources/view/v2ray/routing.js:79
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:28
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:655
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:709
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:714
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:79
 msgid "Tag"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:87
-msgid "The maximum percentage of memory used by V2Ray."
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:87
+msgid "The maximum percentage of memory used by Xray."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:64
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:64
 msgid "This will restart service when config file changes."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:83
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:132
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:83
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:132
 msgid "Time limit for inbound data(seconds)"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:95
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:95
 msgid "Time: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:82
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:131
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:82
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:131
 msgid "Timeout"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:94
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:94
 msgid "Total: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:508
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:565
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:508
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:565
 msgid "Transmission time interval (TTI)"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:113
-#: luasrc/controller/v2ray.lua:29
-#: root/usr/share/luci/menu.d/luci-app-v2ray.json:72
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:113
+#: luci-app-xray/luasrc/controller/xray.lua:29
+#: luci-app-xray/root/usr/share/luci/menu.d/luci-app-xray.json:72
 msgid "Transparent Proxy"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:124
-#: htdocs/luci-static/resources/view/v2ray/main.js:131
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:124
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:131
 msgid "Transport"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:643
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:708
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:643
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:708
 msgid "True"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/routing.js:53
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:53
 msgid "Type"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:256
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:256
 msgid "UDP"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:157
-msgid "Unable to get V2Ray version."
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:157
+msgid "Unable to get Xray version."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:104
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:104
 msgid "Unexpected error."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:25
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:78
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:25
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:78
 msgid "Unknown"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:168
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:176
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:168
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:176
 msgid "Update"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:517
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:574
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:517
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:574
 msgid "Uplink capacity"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/policy.js:56
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:56
 msgid "Uplink only"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:138
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:138
 msgid "Use TProxy"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:90
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:90
 msgid "Use custom config file."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:246
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:339
-#: htdocs/luci-static/resources/view/v2ray/routing.js:61
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:246
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:339
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:61
 msgid "User"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:378
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:378
 msgid "User ID"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:150
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:150
 msgid "User email"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:100
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:141
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:165
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:205
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:278
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:222
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:308
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:354
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:405
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:100
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:141
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:165
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:205
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:278
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:222
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:308
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:354
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:405
 msgid "User level"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:157
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:157
 msgid "User secret"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/about.js:28
-#: htdocs/luci-static/resources/view/v2ray/dns.js:19
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:19
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:142
-#: htdocs/luci-static/resources/view/v2ray/policy.js:20
-#: htdocs/luci-static/resources/view/v2ray/reverse.js:13
-#: htdocs/luci-static/resources/view/v2ray/routing.js:24
-#: htdocs/luci-static/resources/view/v2ray/transparent-proxy.js:113
-#: luasrc/controller/v2ray.lua:13
-msgid "V2Ray"
-msgstr ""
-
-#: htdocs/luci-static/resources/view/v2ray/main.js:79
-msgid "V2Ray asset location"
-msgstr ""
-
-#: htdocs/luci-static/resources/view/v2ray/main.js:71
-msgid "V2Ray file"
-msgstr ""
-
-#: htdocs/luci-static/resources/view/v2ray/main.js:47
-msgid "V2ray"
-msgstr ""
-
-#: htdocs/luci-static/resources/view/v2ray/about.js:30
-#: htdocs/luci-static/resources/view/v2ray/include/custom.js:156
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/about.js:30
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/include/custom.js:156
 msgid "Version: %s"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/main.js:99
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:99
 msgid "Warning"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:567
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:632
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:624
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:689
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:567
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:632
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:624
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:689
 msgid "Wechat Video"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:264
-msgid ""
-"When UDP is enabled, V2Ray needs to know the IP address of current host."
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:264
+msgid "When UDP is enabled, Xray needs to know the IP address of current host."
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/inbound.js:551
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:608
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:551
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:608
 msgid "Write buffer size"
 msgstr ""
 
-#: root/usr/share/luci/menu.d/luci-app-v2ray.json:3
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/about.js:28
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/dns.js:19
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/inbound.js:19
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:47
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:142
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/policy.js:20
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/reverse.js:13
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/routing.js:24
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/transparent-proxy.js:113
+#: luci-app-xray/luasrc/controller/xray.lua:13
+#: luci-app-xray/root/usr/share/luci/menu.d/luci-app-xray.json:3
 msgid "Xray"
 msgstr ""
 
-#: htdocs/luci-static/resources/view/v2ray/outbound.js:107
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:79
+msgid "Xray asset location"
+msgstr ""
+
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/main.js:71
+msgid "Xray file"
+msgstr ""
+
+#: luci-app-xray/htdocs/luci-static/resources/view/xray/outbound.js:107
 msgid "You can add multiple links at once, one link per line."
 msgstr ""
 
-#: luasrc/controller/v2ray.lua:53
+#: luci-app-xray/luasrc/controller/xray.lua:53
 msgctxt "libustream-openssl"
 msgid "wget: SSL support not available, please install %s or %s."
 msgstr ""

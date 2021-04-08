@@ -154,7 +154,7 @@ var callRunningStatus = rpc.declare({
 					t,
 					e
 						? _('Version: %s').format(e)
-						: E('em', { style: 'color: red;' }, _('Unable to get V2Ray version.'))
+						: E('em', { style: 'color: red;' }, _('Unable to get Xray version.'))
 				);
 			});
 		},

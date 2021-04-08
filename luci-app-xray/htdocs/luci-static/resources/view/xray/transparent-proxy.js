@@ -35,7 +35,7 @@ return L.view.extend({
 			case 'gfwlist':
 				var a = uci.get('v2ray', e, 'gfwlist_mirror') || 'github',
 					s = gfwlistUrls[a];
-				return L.Request.request(L.url('admin/services/v2ray/request'), {
+				return L.Request.request(L.url('admin/services/xray/request'), {
 					method: 'post',
 					timeout: 5e4,
 					query: { url: s, token: L.env.token, sessionid: L.env.sessionid },
@@ -110,7 +110,7 @@ return L.view.extend({
 	render: function (t) {
 		void 0 === t && (t = []);
 		var e,
-			r = new form.Map('v2ray', '%s - %s'.format(_('V2Ray'), _('Transparent Proxy'))),
+			r = new form.Map('v2ray', '%s - %s'.format(_('Xray'), _('Transparent Proxy'))),
 			i = r.section(form.NamedSection, 'main_transparent_proxy', 'transparent_proxy');
 		(e = i.option(
 			form.Value,
@@ -142,8 +142,8 @@ return L.view.extend({
 				_('Only privileged ports'),
 				_('Only redirect traffic on ports below 1024.')
 			)),
-			(e = i.option(form.Flag, 'redirect_udp', _('Redirect UDP'), _('Redirect UDP traffic to V2Ray.'))),
-			(e = i.option(form.Flag, 'redirect_dns', _('Redirect DNS'), _('Redirect DNS traffic to V2Ray.'))).depends(
+			(e = i.option(form.Flag, 'redirect_udp', _('Redirect UDP'), _('Redirect UDP traffic to Xray.'))),
+			(e = i.option(form.Flag, 'redirect_dns', _('Redirect DNS'), _('Redirect DNS traffic to Xray.'))).depends(
 				'redirect_udp',
 				''
 			),
@@ -152,7 +152,7 @@ return L.view.extend({
 				form.ListValue,
 				'proxy_mode',
 				_('Proxy mode'),
-				_('If enabled, iptables rules will be added to pre-filter traffic and then sent to V2Ray.')
+				_('If enabled, iptables rules will be added to pre-filter traffic and then sent to Xray.')
 			)).value('default', _('Default')),
 			e.value('cn_direct', _('CN Direct')),
 			e.value('cn_proxy', _('CN Proxy')),

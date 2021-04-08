@@ -16,9 +16,9 @@ return L.view.extend({
 		var o,
 			r = new form.Map(
 				'v2ray',
-				'%s - %s'.format(_('V2Ray'), _('DNS')),
+				'%s - %s'.format(_('Xray'), _('DNS')),
 				_('Details: %s').format(
-					'<a href="https://www.v2ray.com/en/configuration/dns.html#dnsobject" target="_blank">DnsObject</a>'
+					'<a href="https://xtls.github.io/Xray-docs-next/config/dns.html" target="_blank">DnsObject</a>'
 				)
 			),
 			t = r.section(form.NamedSection, 'main_dns', 'dns');

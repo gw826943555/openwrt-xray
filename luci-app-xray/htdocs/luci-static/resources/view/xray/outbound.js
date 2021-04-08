@@ -139,7 +139,7 @@ return L.view.extend({
 	render: function (e) {
 		void 0 === e && (e = []);
 		var s,
-			o = new form.Map('v2ray', '%s - %s'.format(_('V2Ray'), _('Outbound'))),
+			o = new form.Map('v2ray', '%s - %s'.format(_('Xray'), _('Outbound'))),
 			t = o.section(form.GridSection, 'outbound');
 		(t.anonymous = !0),
 			(t.addremove = !0),

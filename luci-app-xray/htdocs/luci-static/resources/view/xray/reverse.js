@@ -10,9 +10,9 @@ return L.view.extend({
 	render: function () {
 		var e = new form.Map(
 				'v2ray',
-				'%s - %s'.format(_('V2Ray'), _('Reverse')),
+				'%s - %s'.format(_('Xray'), _('Reverse')),
 				_('Details: %s').format(
-					'<a href="https://www.v2ray.com/en/configuration/reverse.html#reverseobject" target="_blank">ReverseObject</a>'
+					'<a href="https://xtls.github.io/Xray-docs-next/config/reverse.html" target="_blank">ReverseObject</a>'
 				)
 			),
 			r = e.section(form.NamedSection, 'main_reverse', 'reverse');

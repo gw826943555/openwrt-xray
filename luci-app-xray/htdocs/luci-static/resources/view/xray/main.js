@@ -44,11 +44,11 @@ return L.view.extend({
 			i = void 0 === n ? [] : n,
 			l = new form.Map(
 				'v2ray',
-				'%s - %s'.format(_('V2ray'), _('Global Settings')),
+				'%s - %s'.format(_('Xray'), _('Global Settings')),
 				'<p>%s</p><p>%s</p>'.format(
 					_('A platform for building proxies to bypass network restrictions.'),
 					_('For more information, please visit: %s').format(
-						'<a href="https://www.v2ray.com" target="_blank">https://www.v2ray.com</a>'
+						'<a href="https://xtls.github.io/Xray-docs-next/" target="_blank">https://xtls.github.io/Xray-docs-next/</a>'
 					)
 				)
 			),
@@ -68,30 +68,30 @@ return L.view.extend({
 			((o = s.option(
 				form.Value,
 				'v2ray_file',
-				_('V2Ray file'),
-				_('Set the V2Ray executable file path.')
+				_('Xray file'),
+				_('Set the Xray executable file path.')
 			)).datatype = 'file'),
 			(o.placeholder = '/usr/bin/xray'),
 			(o.rmempty = !1),
 			((o = s.option(
 				form.Value,
 				'asset_location',
-				_('V2Ray asset location'),
-				_('Directory where geoip.dat and geosite.dat files are, default: same directory as V2Ray file.')
+				_('Xray asset location'),
+				_('Directory where geoip.dat and geosite.dat files are, default: /usr/share/xray/.')
 			)).datatype = 'directory'),
 			(o.placeholder = '/usr/share/xray/'),
 			((o = s.option(
 				form.Value,
 				'mem_percentage',
 				_('Memory percentage'),
-				_('The maximum percentage of memory used by V2Ray.')
+				_('The maximum percentage of memory used by Xray.')
 			)).datatype = 'and(uinteger, max(100))'),
 			(o.placeholder = '80'),
 			((o = s.option(form.Value, 'config_file', _('Config file'), _('Use custom config file.'))).datatype =
 				'file'),
 			o.value('', _('None')),
-			(o = s.option(form.Value, 'access_log', _('Access log file'))).depends('config_file', ''),
-			o.value('/dev/null'),
+			(o = s.option(form.Value, 'access_log', _('Access log file'), _('Access Log file path. Disable access log if none'))).depends('config_file', ''),
+			o.value('none'),
 			o.value('/var/log/v2ray-access.log'),
 			(o = s.option(form.ListValue, 'loglevel', _('Log level'))).depends('config_file', ''),
 			o.value('debug', _('Debug')),

@@ -6,13 +6,10 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-xray
-PKG_VERSION:=2.0.1
-PKG_RELEASE:=1
-
 PKG_LICENSE:=MIT
 PKG_MAINTAINER:=William <gw826943555@qq.com>
 
-LUCI_TITLE:=LuCI support for v2ray
+LUCI_TITLE:=LuCI support for Xray
 LUCI_DEPENDS:=+jshn +ip +ipset +iptables +iptables-mod-tproxy +resolveip \
 	+dnsmasq-full
 LUCI_PKGARCH:=all
