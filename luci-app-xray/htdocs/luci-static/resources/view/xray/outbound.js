@@ -7,10 +7,10 @@
 'use strict';
 'require form';
 'require uci';
-'require v2ray';
+'require xray';
 'require ui';
-'require view/v2ray/include/custom as custom';
-'require view/v2ray/tools/converters as converters';
+'require view/xray/include/custom as custom';
+'require view/xray/tools/converters as converters';
 return L.view.extend({
 	handleImportSave: function (e) {
 		for (var s = e.split(/\r?\n/), o = 0, t = 0, a = s; t < a.length; t++) {
@@ -134,7 +134,7 @@ return L.view.extend({
 		]);
 	},
 	load: function () {
-		return v2ray.getLocalIPs();
+		return xray.getLocalIPs();
 	},
 	render: function (e) {
 		void 0 === e && (e = []);

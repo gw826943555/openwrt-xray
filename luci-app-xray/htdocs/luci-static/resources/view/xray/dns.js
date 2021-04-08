@@ -6,10 +6,10 @@
  */
 'use strict';
 'require form';
-'require v2ray';
+'require xray';
 return L.view.extend({
 	load: function () {
-		return v2ray.getSections('dns_server');
+		return xray.getSections('dns_server');
 	},
 	render: function (e) {
 		void 0 === e && (e = []);

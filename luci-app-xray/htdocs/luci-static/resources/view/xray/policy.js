@@ -7,10 +7,10 @@
 'use strict';
 'require form';
 'require uci';
-'require v2ray';
+'require xray';
 return L.view.extend({
 	load: function () {
-		return v2ray.getSections('policy_level', 'level');
+		return xray.getSections('policy_level', 'level');
 	},
 	render: function (e) {
 		void 0 === e && (e = []);

@@ -8,8 +8,8 @@
 'require form';
 'require fs';
 'require ui';
-'require v2ray';
-'require view/v2ray/include/custom as custom';
+'require xray';
+'require view/xray/include/custom as custom';
 return L.view.extend({
 	handleServiceReload: function (e) {
 		return fs
@@ -33,7 +33,7 @@ return L.view.extend({
 			});
 	},
 	load: function () {
-		return Promise.all([v2ray.getSections('inbound'), v2ray.getSections('outbound')]);
+		return Promise.all([xray.getSections('inbound'), xray.getSections('outbound')]);
 	},
 	render: function (e) {
 		var o,

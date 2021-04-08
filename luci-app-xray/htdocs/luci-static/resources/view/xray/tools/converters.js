@@ -5,7 +5,7 @@
  * Licensed to the public under the MIT License.
  */
 'use strict';
-'require view/v2ray/tools/base64 as base64';
+'require view/xray/tools/base64 as base64';
 return L.Class.extend({
 	extractGFWList: function (t) {
 		var e;

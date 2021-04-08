@@ -1,6 +1,6 @@
 {
-	"luci-app-v2ray": {
-		"description": "Grant access to LuCI app V2ray",
+	"luci-app-xray": {
+		"description": "Grant access to LuCI app Xray",
 		"read": {
 			"ubus": {
 				"luci.v2ray": ["*"]

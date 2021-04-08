@@ -7,10 +7,10 @@
 'use strict';
 'require form';
 'require uci';
-'require v2ray';
+'require xray';
 return L.view.extend({
 	load: function () {
-		return Promise.all([v2ray.getSections('routing_rule'), v2ray.getSections('routing_balancer', 'tag')]);
+		return Promise.all([xray.getSections('routing_rule'), xray.getSections('routing_balancer', 'tag')]);
 	},
 	render: function (o) {
 		var t,

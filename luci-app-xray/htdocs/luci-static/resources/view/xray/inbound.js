@@ -8,10 +8,10 @@
 'require form';
 'require network';
 'require uci';
-'require v2ray';
+'require xray';
 return L.view.extend({
 	load: function () {
-		return v2ray.getLocalIPs();
+		return xray.getLocalIPs();
 	},
 	render: function (e) {
 		void 0 === e && (e = []);

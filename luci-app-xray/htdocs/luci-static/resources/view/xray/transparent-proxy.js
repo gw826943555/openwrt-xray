@@ -10,10 +10,10 @@
 'require rpc';
 'require uci';
 'require ui';
-'require v2ray';
+'require xray';
 'require tools/widgets as widgets';
-'require view/v2ray/include/custom as custom';
-'require view/v2ray/tools/converters as converters';
+'require view/xray/include/custom as custom';
+'require view/xray/tools/converters as converters';
 var gfwlistUrls = {
 		github: 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt',
 		gitlab: 'https://gitlab.com/gfwlist/gfwlist/raw/master/gfwlist.txt',
@@ -105,7 +105,7 @@ return L.view.extend({
 		}
 	},
 	load: function () {
-		return v2ray.getDokodemoDoorPorts();
+		return xray.getDokodemoDoorPorts();
 	},
 	render: function (t) {
 		void 0 === t && (t = []);
