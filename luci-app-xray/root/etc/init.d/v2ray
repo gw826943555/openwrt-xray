@@ -490,14 +490,6 @@ add_v2ray_tproxy_rules() {
 		*mangle
 		:V2RAY -
 		-A V2RAY -j RETURN -m mark --mark 0xff
-		$(
-			if [ -n "$addition" ] && [ -n "$lan_ipaddrs" ] ; then
-				local ipaddr
-				for ipaddr in $lan_ipaddrs ; do
-					echo "-A V2RAY -p udp --dport 53 -d $ipaddr -j TPROXY --on-port $port --tproxy-mark 0x1/0x1"
-				done
-			fi
-		)
 		-A V2RAY -j RETURN -m set --match-set $ipset_src_direct src
 		-A V2RAY -j RETURN -m set --match-set $ipset_dst_direct dst
 		-A V2RAY -p tcp $ext_args -j TPROXY --on-port $port --tproxy-mark 0x1/0x1
