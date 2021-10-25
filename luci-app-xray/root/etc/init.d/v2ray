@@ -496,9 +496,9 @@ add_v2ray_tproxy_rules() {
 		$(
 			if [ -n "$addition" ] ; then
 				if [ "$addition" = "dns" ] ; then
-					echo "-A V2RAY -p udp --dport 53 -j TPROXY --on-port $port --tproxy-mark 0x1/0x1"
+					echo "-A V2RAY -p udp $ext_args --dport 53 -j TPROXY --on-port $port --tproxy-mark 0x1/0x1"
 				else
-					echo "-A V2RAY -p udp -j TPROXY --on-port $port --tproxy-mark 0x1/0x1"
+					echo "-A V2RAY -p udp $ext_args -j TPROXY --on-port $port --tproxy-mark 0x1/0x1"
 				fi
 			fi
 
