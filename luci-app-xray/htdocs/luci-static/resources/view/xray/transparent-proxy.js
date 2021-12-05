@@ -48,7 +48,7 @@ return L.view.extend({
 								var a = converters.extractGFWList(r);
 								a
 									? fs
-											.write('/etc/v2ray/gfwlist.txt', a)
+											.write('/etc/v2ray/dst_net.forward', a)
 											.then(function () {
 												ui.showModal(_('List Update'), [
 													E('p', _('GFWList updated.')),
@@ -81,8 +81,8 @@ return L.view.extend({
 						if (200 === t.status && (e = t.json())) {
 							var a;
 							if ((a = e.content)) {
-								var s = converters.extractCHNRoute(a, 'chnroute6' === r);
-								fs.write('/etc/v2ray/' + r + '.txt', s)
+								var s = converters.extractCHNRoute(a, 'dst_ips.bypass' === r);
+								fs.write('/etc/v2ray/' + r, s)
 									.then(function () {
 										ui.showModal(_('List Update'), [
 											E('p', _('CHNRoute list updated.')),

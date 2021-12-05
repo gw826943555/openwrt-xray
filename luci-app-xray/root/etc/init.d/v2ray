@@ -737,22 +737,6 @@ init_rules_for_listfile() {
 		fi
 	fi
 
-	# For proxy list
-	local proxy_content
-	proxy_content="$(get_file_content "proxy.ip")"
-
-	if [ -n "$proxy_content" ] ; then
-		echo "$proxy_content" | \
-			grep -oE "[0-9]{1,3}(\.[0-9]{1,3}){3}(/[0-9]{1,2})?" | \
-			sed "s/.*/add $IPSET_DST_PROXY_V4 & timeout 0/" | \
-			ipset -! restore 2>/dev/null
-
-		echo "$proxy_content" | \
-			grep -oE "([0-9a-fA-F]{0,4}:){1,7}([0-9a-fA-F]){0,4}(/[0-9]{1,2})?" | \
-			sed "s/.*/add $IPSET_DST_PROXY_V6 & timeout 0/" | \
-			ipset -! restore 2>/dev/null
-	fi
-
   # For local devices outbound list
 	local src_content
 	src_content="$(get_file_content "srcdirectlist.txt")"
@@ -2025,56 +2009,119 @@ setup_transparent_proxy() {
 	local ext_args_v6
 	case "${proxy_mode:-default}" in
 		"cn_direct")
-			local chnroute="$(get_file_content "chnroute.txt")"
-			local chnroute6="$(get_file_content "chnroute6.txt")"
+			local dst_bypass_ips="$(get_file_content "dst_ips.bypass")"
+			local dst_bypass_net="$(get_file_content "dst_net.bypass")"
 
-			if [ -n "$chnroute" ] ; then
-				ipset -! restore <<-EOF 2>/dev/null
-					$(echo "$chnroute" | sed "s/.*/add $IPSET_DST_DIRECT_V4 & timeout 0/")
-				EOF
+			if [ -n "$dst_bypass_ips" ] ; then
+				echo "$dst_bypass_ips" | \
+					grep -oE "[0-9]{1,3}(\.[0-9]{1,3}){3}(/[0-9]{1,2})?" | \
+					sed "s/.*/add $IPSET_DST_DIRECT_V4 & timeout 0/" | \
+					ipset -! restore 2>/dev/null
+
+				echo "$dst_bypass_ips" | \
+					grep -oE "([0-9a-fA-F]{0,4}:){1,7}([0-9a-fA-F]){0,4}(/[0-9]{1,2})?" | \
+					sed "s/.*/add $IPSET_DST_DIRECT_V6 & timeout 0/" | \
+					ipset -! restore 2>/dev/null
 			fi
 
-			if [ -n "$chnroute6" ] ; then
-				ipset -! restore <<-EOF 2>/dev/null
-					$(echo "$chnroute6" | sed "s/.*/add $IPSET_DST_DIRECT_V6 & timeout 0/")
-				EOF
+			if [ -n "$direct_list_dns" ] ; then
+				echo "$dst_bypass_net" | \
+					grep -oE "([0-9a-zA-Z_-]+\.)+[a-zA-Z]{2,}$" | \
+					sed "s|.*|server=/&/$direct_list_dns\nipset=/&/$IPSET_DST_DIRECT_V4,$IPSET_DST_DIRECT_V6|" \
+					>>"$FILE_V2RAY_DNSMASQ_CACHE"
+			else
+				echo "$dst_bypass_net" | \
+					grep -oE "([0-9a-zA-Z_-]+\.)+[a-zA-Z]{2,}$" | \
+					sed "s|.*|ipset=/&/$IPSET_DST_DIRECT_V4,$IPSET_DST_DIRECT_V6|" \
+					>>"$FILE_V2RAY_DNSMASQ_CACHE"
 			fi
 
 			ext_args_v4=
 			ext_args_v6=
 			;;
 		"cn_proxy")
-			local chnroute="$(get_file_content "chnroute.txt")"
-			local chnroute6="$(get_file_content "chnroute6.txt")"
+			local dst_bypass_ips="$(get_file_content "dst_ips.bypass")"
+			local dst_bypass_net="$(get_file_content "dst_net.bypass")"
 
-			if [ -n "$chnroute" ] ; then
-				ipset -! restore <<-EOF 2>/dev/null
-					$(echo "$chnroute" | sed "s/.*/add $IPSET_DST_PROXY_V4 & timeout 0/")
-				EOF
+			if [ -n "$dst_bypass_ips" ] ; then
+				echo "$dst_bypass_ips" | \
+					grep -oE "[0-9]{1,3}(\.[0-9]{1,3}){3}(/[0-9]{1,2})?" | \
+					sed "s/.*/add $IPSET_DST_PROXY_V4 & timeout 0/" | \
+					ipset -! restore 2>/dev/null
+
+				echo "$dst_bypass_ips" | \
+					grep -oE "([0-9a-fA-F]{0,4}:){1,7}([0-9a-fA-F]){0,4}(/[0-9]{1,2})?" | \
+					sed "s/.*/add $IPSET_DST_PROXY_V6 & timeout 0/" | \
+					ipset -! restore 2>/dev/null
 			fi
 
-			if [ -n "$chnroute6" ] ; then
-				ipset -! restore <<-EOF 2>/dev/null
-					$(echo "$chnroute6" | sed "s/.*/add $IPSET_DST_PROXY_V6 & timeout 0/")
-				EOF
+			if [ -n "$direct_list_dns" ] ; then
+				echo "$dst_bypass_net" | \
+					grep -oE "([0-9a-zA-Z_-]+\.)+[a-zA-Z]{2,}$" | \
+					sed "s|.*|server=/&/$direct_list_dns\nipset=/&/$IPSET_DST_PROXY_V4,$IPSET_DST_PROXY_V6|" \
+					>>"$FILE_V2RAY_DNSMASQ_CACHE"
+			else
+				echo "$dst_bypass_net" | \
+					grep -oE "([0-9a-zA-Z_-]+\.)+[a-zA-Z]{2,}$" | \
+					sed "s|.*|ipset=/&/$IPSET_DST_PROXY_V4,$IPSET_DST_PROXY_V6|" \
+					>>"$FILE_V2RAY_DNSMASQ_CACHE"
 			fi
 
 			ext_args_v4="-m set --match-set $IPSET_DST_PROXY_V4 dst"
 			ext_args_v6="-m set --match-set $IPSET_DST_PROXY_V6 dst"
 			;;
 		"gfwlist_proxy")
-			local gfwlist="$(get_file_content "gfwlist.txt")"
+			local dst_bypass_ips="$(get_file_content "dst_ips.bypass")"
+			local dst_bypass_net="$(get_file_content "dst_net.bypass")"
+			local dst_forward_ips="$(get_file_content "dst_ips.forward")"
+			local dst_forward_net="$(get_file_content "dst_net.forward")"
 
-			if [ -n "$gfwlist" ] ; then
-				if [ -n "$proxy_list_dns" ] ; then
-					echo "$gfwlist" | \
-						sed "s|.*|server=/&/$proxy_list_dns\nipset=/&/$IPSET_DST_PROXY_V4,$IPSET_DST_PROXY_V6|" \
-						>> "$FILE_V2RAY_DNSMASQ_CACHE"
-				else
-					echo "$gfwlist" | \
-						sed "s|.*|ipset=/&/$IPSET_DST_PROXY_V4,$IPSET_DST_PROXY_V6|" \
-						>> "$FILE_V2RAY_DNSMASQ_CACHE"
-				fi
+			if [ -n "$dst_bypass_ips" ] ; then
+				echo "$dst_bypass_ips" | \
+					grep -oE "[0-9]{1,3}(\.[0-9]{1,3}){3}(/[0-9]{1,2})?" | \
+					sed "s/.*/add $IPSET_DST_DIRECT_V4 & timeout 0/" | \
+					ipset -! restore 2>/dev/null
+
+				echo "$dst_bypass_ips" | \
+					grep -oE "([0-9a-fA-F]{0,4}:){1,7}([0-9a-fA-F]){0,4}(/[0-9]{1,2})?" | \
+					sed "s/.*/add $IPSET_DST_DIRECT_V6 & timeout 0/" | \
+					ipset -! restore 2>/dev/null
+			fi
+
+			if [ -n "$direct_list_dns" ] ; then
+				echo "$dst_bypass_net" | \
+					grep -oE "([0-9a-zA-Z_-]+\.)+[a-zA-Z]{2,}$" | \
+					sed "s|.*|server=/&/$direct_list_dns\nipset=/&/$IPSET_DST_DIRECT_V4,$IPSET_DST_DIRECT_V6|" \
+					>>"$FILE_V2RAY_DNSMASQ_CACHE"
+			else
+				echo "$dst_bypass_net" | \
+					grep -oE "([0-9a-zA-Z_-]+\.)+[a-zA-Z]{2,}$" | \
+					sed "s|.*|ipset=/&/$IPSET_DST_DIRECT_V4,$IPSET_DST_DIRECT_V6|" \
+					>>"$FILE_V2RAY_DNSMASQ_CACHE"
+			fi
+
+			if [ -n "$dst_forward_ips" ] ; then
+				echo "$dst_forward_ips" | \
+					grep -oE "[0-9]{1,3}(\.[0-9]{1,3}){3}(/[0-9]{1,2})?" | \
+					sed "s/.*/add $IPSET_DST_PROXY_V4 & timeout 0/" | \
+					ipset -! restore 2>/dev/null
+
+				echo "$dst_forward_ips" | \
+					grep -oE "([0-9a-fA-F]{0,4}:){1,7}([0-9a-fA-F]){0,4}(/[0-9]{1,2})?" | \
+					sed "s/.*/add $IPSET_DST_PROXY_V6 & timeout 0/" | \
+					ipset -! restore 2>/dev/null
+			fi
+
+			if [ -n "$proxy_list_dns" ] ; then
+				echo "$dst_bypass_net" | \
+					grep -oE "([0-9a-zA-Z_-]+\.)+[a-zA-Z]{2,}$" | \
+					sed "s|.*|server=/&/$proxy_list_dns\nipset=/&/$IPSET_DST_PROXY_V4,$IPSET_DST_PROXY_V6|" \
+					>>"$FILE_V2RAY_DNSMASQ_CACHE"
+			else
+				echo "$dst_bypass_net" | \
+					grep -oE "([0-9a-zA-Z_-]+\.)+[a-zA-Z]{2,}$" | \
+					sed "s|.*|ipset=/&/$IPSET_DST_PROXY_V4,$IPSET_DST_PROXY_V6|" \
+					>>"$FILE_V2RAY_DNSMASQ_CACHE"
 			fi
 
 			ext_args_v4="-m set --match-set $IPSET_DST_PROXY_V4 dst"
