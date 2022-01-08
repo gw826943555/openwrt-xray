@@ -125,7 +125,7 @@ return L.view.extend({
 		return (
 			(e.datatype = 'port'),
 			((e = i.option(
-				widgets.NetworkSelect,
+				widgets.DeviceSelect,
 				'lan_ifaces',
 				_('LAN interfaces'),
 				_('Enable proxy on selected interfaces.')
